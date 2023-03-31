@@ -12,6 +12,25 @@ body {
   filter: blur(3px);
   overflow: hidden;
 }
+.title {
+  display: flex;  
+  justify-content: center;
+  /* border: 1px solid hsl(200, 100%, 10%); */
+  align-items: center;
+  padding: .3rem 1rem;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+.subtitle {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  padding: .3rem 1rem;
+  margin: 0 auto;
+  border-radius: 1rem;
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
 
 .header {
   display: flex;
