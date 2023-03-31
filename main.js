@@ -101,7 +101,7 @@ function renderDailyWeather(daily) {
 //   })
 // }
 
-const HOUR_FORMATTER = new Intl.DateTimeFormat(undefined, { hour: "numeric" })
+const HOUR_FORMATTER = new Intl.DateTimeFormat(undefined, { hour: "numeric", hour12: true})
 const hourlySection = document.querySelector("[data-hour-section]")
 const hourRowTemplate = document.getElementById("hour-row-template")
 function renderHourlyWeather(hourly) {
